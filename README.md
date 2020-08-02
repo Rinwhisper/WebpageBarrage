@@ -5,4 +5,4 @@ Browser是谷歌插件文件夹，Server是后端服务器
 
 注意：
 
-Browser文件夹下少了一个文件
+Browser文件夹下少了一个文件jquery-3.4.0.min.js，安装时需要自行安装
