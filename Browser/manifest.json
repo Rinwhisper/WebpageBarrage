@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+  
+    "name": "first",
+    "description": "This extension demonstrates a browser action with kittens.",
+    "version": "1.0",
+  
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*/*",
+          "http://*/*"
+        ],
+        "js": ["jquery-3.4.0.min.js", "myscript.js", "function.js"]
+      }
+    ],
+
+    "permissions": [
+      "http://127.0.0.1:8081/"
+    ],
+    "browser_action": {
+    	"default_icon": "icon.png"
+    }
+  }
